@@ -1,0 +1,123 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+.envrc
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer / packaging tools
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.pytype/
+cython_debug/
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments / secrets
+.env
+.env.*
+!.env.example
+*.pem
+secrets/
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project data (keep structure; ignore heavy/local files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+!**/sample*.csv
+
+# Model artifacts / outputs
+models/*.pkl
+models/*.joblib
+*.h5
+*.pt
+*.pth
+mlruns/
+wandb/
+outputs/
+runs/
+
+# Reports generated locally (keep tracked PDFs intentional)
+reports/figuras/*.png
+reports/figuras/*.jpg
+reports/figuras/*.svg
+!reports/figuras/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Docker (local overrides)
+docker-compose.override.yml
