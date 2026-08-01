@@ -1,0 +1,13 @@
+# Stack alinhada às aulas do CURSO_IA_ML (FIAP)
+# + Jupyter para notebooks do tech challenge
+
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+scikit-learn>=1.3
+scipy>=1.10
+
+# Ambiente de notebooks
+jupyter>=1.0
+ipykernel>=6.0
