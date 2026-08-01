@@ -90,6 +90,9 @@ secrets/
 Thumbs.db
 desktop.ini
 
+# Local planning / notes (not versioned)
+spec/
+
 # Project data (keep structure; ignore heavy/local files)
 data/raw/*
 !data/raw/.gitkeep
