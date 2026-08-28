@@ -13,3 +13,7 @@ shap>=0.44
 # Ambiente de notebooks
 jupyter>=1.0
 ipykernel>=6.0
+
+# Geracao do PDF de entrega (src/gerar_anexo_dataset.py)
+reportlab>=4.0
+pymupdf>=1.24

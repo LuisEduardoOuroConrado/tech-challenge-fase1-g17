@@ -4,6 +4,10 @@ Classificação de câncer de mama (**maligno × benigno**) com Machine Learning
 
 > ⚕️ **Aviso:** este é um projeto acadêmico. O modelo é uma ferramenta de **apoio à decisão** — a palavra final é sempre de um profissional de saúde qualificado.
 
+## 🎥 Vídeo de apresentação
+
+**<https://youtu.be/8lzSGtkSNxo>** (≤ 15 min — apresentação completa do pipeline pelo grupo)
+
 ## 📊 Resultado principal
 
 Modelo final: **Regressão Logística** (escolhido por validação cruzada, priorizando o *recall* da classe maligna).
@@ -27,6 +31,9 @@ Matriz de confusão no teste (114 amostras): **TN=71 · FP=1 · FN=3 · TP=39**.
 | **Amostras**      | 569 (357 benignos / 212 malignos)                                                                              |
 | **Atributos**     | 30 numéricos (10 medidas × `_mean` / `_se` / `_worst`)                                                          |
 | **Notebook**      | `notebooks/01_pipeline_eda_preprocessamento.ipynb`                                                             |
+
+> 📄 **Por que este dataset?** O raciocínio da escolha, as alternativas avaliadas e as limitações assumidas
+> estão no **Anexo A** do [relatório técnico](reports/relatorio_tecnico_g17.pdf) (páginas 8 a 11).
 
 ### Como obter o dataset
 
@@ -62,6 +69,11 @@ Gerar as figuras da EDA (Parte A) sem abrir o Jupyter:
 python src/run_eda.py
 ```
 
+Reaplicar o Anexo A (justificativa do dataset) ao relatório, a partir de `reports/justificativa_dataset.md`:
+```bash
+python src/gerar_anexo_dataset.py
+```
+
 Ou abrir o notebook com o kernel `.venv` e rodar as células de cima para baixo.
 
 ## 📁 Estrutura do projeto
@@ -73,9 +85,13 @@ tech-challenge-fase1-g17/
 ├─ notebooks/
 │  └─ 01_pipeline_eda_preprocessamento.ipynb   # pipeline completo (Partes A–D)
 ├─ reports/
-│  └─ figuras/        # figuras geradas pela EDA e avaliação
+│  ├─ figuras/                          # figuras geradas pela EDA e avaliação (não versionadas)
+│  ├─ relatorio_tecnico_g17.pdf         # ENTREGÁVEL: relatório técnico + Anexo A (11 páginas)
+│  ├─ justificativa_dataset.md          # fonte em Markdown do Anexo A
+│  └─ roteiro_video.md                  # roteiro usado na gravação
 ├─ src/
-│  └─ run_eda.py      # gera as figuras da EDA sem depender do Jupyter
+│  ├─ run_eda.py                        # gera as figuras da EDA sem depender do Jupyter
+│  └─ gerar_anexo_dataset.py            # aplica o Anexo A ao relatório em PDF
 ├─ requirements.txt
 └─ README.md
 ```
@@ -99,6 +115,17 @@ tech-challenge-fase1-g17/
 
 ## 📦 Entregáveis finais
 
-- ✅ Repositório Git com código e este README
-- ✅ PDF do relatório técnico (com link do repositório) — `reports/relatorio_tecnico_g17.pdf`
-- 🎥 Vídeo ≤ 15 min (YouTube/Vimeo): **&lt;inserir link aqui&gt;**
+O enunciado pede **um único PDF** de entrega: é o
+[`reports/relatorio_tecnico_g17.pdf`](reports/relatorio_tecnico_g17.pdf), que reúne tudo abaixo.
+
+| Entregável | Onde |
+|------------|------|
+| PDF de entrega (relatório técnico + Anexo A) | [`reports/relatorio_tecnico_g17.pdf`](reports/relatorio_tecnico_g17.pdf) |
+| Link do repositório Git | Capa do PDF · <https://github.com/LuisEduardoOuroConrado/tech-challenge-fase1-g17> |
+| Código-fonte e README com instruções | Este repositório |
+| Dataset (link de download) | [Kaggle — Breast Cancer Wisconsin](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data) |
+| Resultados (gráficos e análises) | 5 figuras no PDF · [notebook executado](notebooks/01_pipeline_eda_preprocessamento.ipynb) |
+| Relatório técnico (EDA, pré-proc., modelos, interpretação) | Seções 1 a 9 do PDF |
+| Justificativa da escolha do dataset | Anexo A do PDF (páginas 8 a 11) |
+| Vídeo de apresentação (≤ 15 min) | <https://youtu.be/8lzSGtkSNxo> |
+| Dockerfile | Não se aplica — o projeto não usa Docker |
