@@ -69,11 +69,6 @@ Gerar as figuras da EDA (Parte A) sem abrir o Jupyter:
 python src/run_eda.py
 ```
 
-Reaplicar o Anexo A (justificativa do dataset) ao relatório, a partir de `reports/justificativa_dataset.md`:
-```bash
-python src/gerar_anexo_dataset.py
-```
-
 Ou abrir o notebook com o kernel `.venv` e rodar as células de cima para baixo.
 
 ## 📁 Estrutura do projeto
@@ -87,11 +82,9 @@ tech-challenge-fase1-g17/
 ├─ reports/
 │  ├─ figuras/                          # figuras geradas pela EDA e avaliação (não versionadas)
 │  ├─ relatorio_tecnico_g17.pdf         # ENTREGÁVEL: relatório técnico + Anexo A (11 páginas)
-│  ├─ justificativa_dataset.md          # fonte em Markdown do Anexo A
 │  └─ roteiro_video.md                  # roteiro usado na gravação
 ├─ src/
-│  ├─ run_eda.py                        # gera as figuras da EDA sem depender do Jupyter
-│  └─ gerar_anexo_dataset.py            # aplica o Anexo A ao relatório em PDF
+│  └─ run_eda.py                        # gera as figuras da EDA sem depender do Jupyter
 ├─ requirements.txt
 └─ README.md
 ```
