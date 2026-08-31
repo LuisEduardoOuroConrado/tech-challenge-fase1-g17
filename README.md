@@ -33,7 +33,7 @@ Matriz de confusão no teste (114 amostras): **TN=71 · FP=1 · FN=3 · TP=39**.
 | **Notebook**      | `notebooks/01_pipeline_eda_preprocessamento.ipynb`                                                             |
 
 > 📄 **Por que este dataset?** O raciocínio da escolha, as alternativas avaliadas e as limitações assumidas
-> estão no **Anexo A** do [relatório técnico](reports/relatorio_tecnico_g17.pdf) (páginas 8 a 11).
+> estão no **Anexo A** do [relatório técnico](reports/tech-challenge-fase1-grupo17.pdf) (páginas 8 a 11).
 
 ### Como obter o dataset
 
@@ -81,7 +81,7 @@ tech-challenge-fase1-g17/
 │  └─ 01_pipeline_eda_preprocessamento.ipynb   # pipeline completo (Partes A–D)
 ├─ reports/
 │  ├─ figuras/                          # figuras geradas pela EDA e avaliação (não versionadas)
-│  └─ relatorio_tecnico_g17.pdf         # ENTREGÁVEL: relatório técnico + Anexo A (11 páginas)
+│  └─ tech-challenge-fase1-grupo17.pdf  # ENTREGÁVEL: relatório técnico + Anexo A (11 páginas)
 ├─ src/
 │  └─ run_eda.py                        # gera as figuras da EDA sem depender do Jupyter
 ├─ requirements.txt
@@ -108,11 +108,11 @@ tech-challenge-fase1-g17/
 ## 📦 Entregáveis finais
 
 O enunciado pede **um único PDF** de entrega: é o
-[`reports/relatorio_tecnico_g17.pdf`](reports/relatorio_tecnico_g17.pdf), que reúne tudo abaixo.
+[`reports/tech-challenge-fase1-grupo17.pdf`](reports/tech-challenge-fase1-grupo17.pdf), que reúne tudo abaixo.
 
 | Entregável | Onde |
 |------------|------|
-| PDF de entrega (relatório técnico + Anexo A) | [`reports/relatorio_tecnico_g17.pdf`](reports/relatorio_tecnico_g17.pdf) |
+| PDF de entrega (relatório técnico + Anexo A) | [`reports/tech-challenge-fase1-grupo17.pdf`](reports/tech-challenge-fase1-grupo17.pdf) |
 | Link do repositório Git | Capa do PDF · <https://github.com/LuisEduardoOuroConrado/tech-challenge-fase1-g17> |
 | Código-fonte e README com instruções | Este repositório |
 | Dataset (link de download) | [Kaggle — Breast Cancer Wisconsin](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data) |
