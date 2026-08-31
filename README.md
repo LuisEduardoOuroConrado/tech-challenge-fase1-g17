@@ -6,7 +6,7 @@ Classificação de câncer de mama (**maligno × benigno**) com Machine Learning
 
 ## 🎥 Vídeo de apresentação
 
-**<https://youtu.be/8lzSGtkSNxo>** (≤ 15 min — apresentação completa do pipeline pelo grupo)
+**<https://youtu.be/jOU0pZEKgKE>** (≤ 15 min — apresentação completa do pipeline pelo grupo)
 
 ## 📊 Resultado principal
 
@@ -120,5 +120,5 @@ O enunciado pede **um único PDF** de entrega: é o
 | Resultados (gráficos e análises) | 5 figuras no PDF · [notebook executado](notebooks/01_pipeline_eda_preprocessamento.ipynb) |
 | Relatório técnico (EDA, pré-proc., modelos, interpretação) | Seções 1 a 9 do PDF |
 | Justificativa da escolha do dataset | Anexo A do PDF (páginas 8 a 11) |
-| Vídeo de apresentação (≤ 15 min) | <https://youtu.be/8lzSGtkSNxo> |
+| Vídeo de apresentação (≤ 15 min) | <https://youtu.be/jOU0pZEKgKE> |
 | Dockerfile | Não se aplica — o projeto não usa Docker |
