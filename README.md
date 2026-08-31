@@ -81,8 +81,7 @@ tech-challenge-fase1-g17/
 │  └─ 01_pipeline_eda_preprocessamento.ipynb   # pipeline completo (Partes A–D)
 ├─ reports/
 │  ├─ figuras/                          # figuras geradas pela EDA e avaliação (não versionadas)
-│  ├─ relatorio_tecnico_g17.pdf         # ENTREGÁVEL: relatório técnico + Anexo A (11 páginas)
-│  └─ roteiro_video.md                  # roteiro usado na gravação
+│  └─ relatorio_tecnico_g17.pdf         # ENTREGÁVEL: relatório técnico + Anexo A (11 páginas)
 ├─ src/
 │  └─ run_eda.py                        # gera as figuras da EDA sem depender do Jupyter
 ├─ requirements.txt
